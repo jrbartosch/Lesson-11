@@ -1,4 +1,4 @@
-num = float(input('Please Enter a Number to Calculate if it is an Armstrong Number: '))
+num = float(input('Please Enter a Number to Check if it is an Armstrong Number: '))
 sum = 0
 temp = num
 while temp > 0:
