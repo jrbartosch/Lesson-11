@@ -1,9 +1,7 @@
-word = input ('Please Enter a Word: ')
-char = input ('Please Enter a Character to Count in the Word: ')
-i = 0
-count = 0
-while (i < len(word)):
-    if (word[i] == char):
-        count += 1
+num = float(input('Please enter a number up to which the sum should be calculated: '))
+sum = 0
+i = 1
+while i <= num:
+    sum += i
     i += 1
-print (char, 'repeats', count, 'times in this word.')
+print('Sum =', sum)
